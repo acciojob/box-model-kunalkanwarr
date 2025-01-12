@@ -1,1 +1,48 @@
-/*  your css code here. If applicable */
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f6;
+}
+
+/* Container styling */
+.container {
+  display: flex;
+  justify-content: space-between; /* Position blocks inline */
+  align-items: center;
+  width: 500px; /* Container width */
+  height: 200px; /* Container height */
+  border: 2px solid #333; /* Border for the container */
+  border-radius: 15px; /* Rounded corners for the container */
+  padding: 20px; /* Padding inside the container */
+  background-color: #fff;
+}
+
+/* Red Block */
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%; /* Makes the block a circle */
+}
+
+/* Green Block */
+.green {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50%; /* Makes the block a circle */
+}
+
+/* Yellow Block */
+.yellow {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 50%; /* Makes the block a circle */
+}
